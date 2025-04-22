@@ -1,0 +1,57 @@
+4.Concentric circle.
+
+#include<stdio.h>
+#include <graphics.h>
+#include<conio.h>
+Void main()
+{
+int gd= DETECT,gm;
+int gnidx, midy, i;
+initgraph (&gd, & gm, "c:\\Tirboc3\\BGI");
+midx = getmaxx ()\2;
+midy = getmaxy ()\2;
+for (i=15;i<200;i+=10)
+{
+Setcolor (YELLOW);
+Circle (midx, midy, i);
+}
+outtextxy(260, 350, " Concentric circle");
+getch();
+Closegraph ();
+}
+
+5. Ellipse 
+
+#include<stdio.h>
+#include <graphies.h>
+#include < Conio.n>
+Void main()
+{
+int gd= DETECT, gm;
+int midx,midy;
+initgraph (&gd, &gm, "c:\\Turboc3\\BGI");
+midx=getmaxx ()\2;
+midy = getmaxy ()\2;
+ellipse (midx, midy, 0,360,100,50);
+Outtextxy(300,300,"ELLIPSE");
+getch();
+closegraph);
+}
+
+6.line
+
+#include<stdio.h>
+#include <graphies.h>
+#include < Conio.n>
+Void main()
+{
+int gd= DETECT, gm;
+int midx,midy;
+initgraph (&gd, &gm, "c:\\Turboc3\\BGI");
+midx=getmaxx ()\2;
+midy = getmaxy ()\2;
+line(1,midy,640,midy);
+Outtextxy(300,270,"LINE");
+getch();
+closegraph);
+}
