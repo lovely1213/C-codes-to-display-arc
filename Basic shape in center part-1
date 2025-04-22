@@ -1,0 +1,53 @@
+1.circle
+
+#include<stdio.h>
+#include <graphies.h>
+#include < Conio.n>
+Void main()
+{
+int gd= DETECT, gm;
+int midx,midy;
+initgraph (&gd, &gm, "c:\\Turboc3\\BGI");
+midx=getmaxx ()\2;
+midy = getmaxy ()\2;
+circle (midx, midy, 50);
+Outtextxy(300,300,"CIRCLE");
+getch();
+closegraph);
+}
+
+2.Rectangle 
+
+#include<stdio.h>
+#include <graphies.h>
+#include < Conio.n>
+Void main()
+{
+int gd= DETECT, gm;
+int midx,midy;
+initgraph (&gd, &gm, "c:\\Turboc3\\BGI");
+midx=getmaxx ()\2;
+midy = getmaxy ()\2;
+rectangle(midx, midy, 50,50);
+Outtextxy(300,300,"RECTANGLE");
+getch();
+closegraph);
+}
+
+3.Rectangle 
+
+#include<stdio.h>
+#include <graphies.h>
+#include < Conio.n>
+Void main()
+{
+int gd= DETECT, gm;
+int midx,midy;
+initgraph (&gd, &gm, "c:\\Turboc3\\BGI");
+midx=getmaxx ()\2;
+midy = getmaxy ()\2;
+rectangle(midx, midy, 350,295);
+Outtextxy(300,300,"RECTANGLE");
+getch();
+closegraph);
+}
