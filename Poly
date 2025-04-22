@@ -1,0 +1,15 @@
+#include<graphics.h>
+#include<conio.h>
+Void main ()
+{
+int gd=DETECT,gm,points [ ] ={120,120,100,160,50,40,30,80,70,100};
+initgraph(&gd, &gm, "c:\\turboc3\BGI");
+drawpoly(6, points );
+getch();
+Closegraph();
+}
+
+
+int gd=DETECT,gm,points [ ] ={120,120,100,160,50,40,30,80,70,100};
+initgraph(&gd, &gm, "c:\\turboc3\BGI");
+fillpoly(6, points );
