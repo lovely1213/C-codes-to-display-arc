@@ -1,0 +1,23 @@
+#include<studio.h>
+#include<graphics.h> 
+#include<conio.h>
+Void main()
+{
+int gd= DETECT,gm;
+int midx,midy;
+initgraph(&gd,&gm,"c:\\Turboc3\\BGI");
+midx=getmaxx()/2;
+midy=getmaxy()/2;
+line(1,midy,640,midy);
+line(midx,1,midx,640);
+Circle(150,130,50);
+Outtextxy(130,200,"Circle");
+Rectangle(400,90,500,170);
+Outtextxy(400,200,"rectangle");
+Ellipse(450,320,0,360,50,40);
+Outtextxy(425,375"ellipse");
+Arc(150,350,0,120,50);
+Outtextxy(140,380,"Arc");
+getch();
+Closegraph();
+}
