@@ -1,0 +1,14 @@
+#include<graphics.h>
+#include<conio.h>
+Void main ()
+{
+Int gd=DETECT,gm;
+Int midx,midy;
+initgraph(&gd, &gm, "c:\\turboc3\BGI");
+midx=getmaxx()/2;
+midy=getmaxy()/2;
+Line(1,midy,640,midy);
+line(midx,1,midx,640);
+getch();
+Closegraph ();
+}
