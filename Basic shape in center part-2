@@ -50,7 +50,7 @@ int midx,midy;
 initgraph (&gd, &gm, "c:\\Turboc3\\BGI");
 midx=getmaxx ()\2;
 midy = getmaxy ()\2;
-line(1,midy,640,midy);
+line(1,midy,800,midy);
 Outtextxy(300,270,"LINE");
 getch();
 closegraph);
