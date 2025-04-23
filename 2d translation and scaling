@@ -1,0 +1,56 @@
+1.translation
+
+#include<stdio.h>
+#include<graphics.h>
+#include<conio.h>
+void main()
+{
+int gd=DETECT,gm;
+int i;
+int x2,y2,x1,y1,x,y;
+printf("enter the 2 line and points:");
+pritnf("x1,y1,x2,y2");
+scanf("%d%d%d%d",&x1,&y1,&x2,&y2);
+initgraph (&gd,&gm,"C:\\Turboc3\\BGI");
+line (x1, y1, x2,y2);
+printf("enter the Co-ordinate axis for translation ");
+printf("x,y");
+Scanf("%d%d",&x,&y);
+x1=x1+x;
+y1=y1+y;
+x2=x2+x;
+y2=y2+y;
+printf(" line after translation");
+line (x1, y1, x2, y2);
+getch();
+Closegraph ();
+}
+
+
+2.scalling
+
+#include<stdio.h>
+#include<graphics.h>
+#include<conio.h>
+void main()
+{
+int gd=DETECT,gm;
+int i;
+int x2,y2,x1,y1,x,y;
+printf("enter the 2 line and points:");
+pritnf("x1,y1,x2,y2");
+scanf("%d%d%d%d",&x1,&y1,&x2,&y2);
+initgraph (&gd,&gm,"C:\\Turboc3\\BGI");
+line (x1, y1, x2,y2);
+printf("enter the Co-ordinate axis for scalling");
+printf("x,y");
+Scanf("%d%d",&x,&y);
+x1=x1*x;
+y1=y1*y;
+x2=x2*x;
+y2=y2*y;
+printf(" line after scalling");
+line (x1, y1, x2, y2);
+getch();
+Closegraph ();
+}
